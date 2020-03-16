@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="My Rules" ToolsVersion="16.0">
+  <Rules AnalyzerId="Microsoft.CodeAnalysis.CSharp.Features" RuleNamespace="Microsoft.CodeAnalysis.CSharp.Features">
+    <Rule Id="IDE1006" Action="None" />
+    <Rule Id="IDE1006WithoutSuggestion" Action="None" />
+  </Rules>
+  <Rules AnalyzerId="Roslynator.CSharp.Analyzers" RuleNamespace="Roslynator.CSharp.Analyzers">
+    <Rule Id="RCS1001" Action="Error" />
+    <Rule Id="RCS1007" Action="Error" />
+    <Rule Id="RCS1090" Action="None" />
+  </Rules>
+  <Rules AnalyzerId="Microsoft.VisualStudio.Threading.Analyzers" RuleNamespace="Microsoft.VisualStudio.Threading.Analyzers">  
+    <Rule Id="VSTHRD200" Action="Error" />
+  </Rules>
+</RuleSet>
