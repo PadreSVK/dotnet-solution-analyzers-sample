@@ -6,7 +6,7 @@ namespace ConsoleApp1
     internal class Program
     {
 #pragma warning disable VSTHRD200
-        private async Task Main(string[] args)
+        private static async Task Main(string[] args)
         {
             await Task.CompletedTask;
             Console.WriteLine("Hello World!");
