@@ -13,7 +13,7 @@ namespace ConsoleApp1
         }
 #pragma warning restore VSTHRD200
 
-        private async Task BadName()
+        private async Task BadNameAsync()
         {
             await Task.CompletedTask;
         }

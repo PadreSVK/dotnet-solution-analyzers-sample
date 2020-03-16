@@ -9,7 +9,7 @@ namespace ConsoleApp2
         {
             Console.WriteLine("Hello World!");
         }
-        private async Task Console2BadName()
+        private async Task Console2BadNameAsync()
         {
             await Task.CompletedTask;
         }
