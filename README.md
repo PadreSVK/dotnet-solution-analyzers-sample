@@ -1,3 +1,3 @@
 # Dotnet solution analyzers exampple
 
-see [blogpost](https://patriksvikruha.com/dotnet-solution-roslyn-analyzers) for more info.
+Setup for solution wide analyzers setup, see [blogpost](https://patriksvikruha.com/dotnet-solution-roslyn-analyzers) for more info.
